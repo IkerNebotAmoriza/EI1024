@@ -1,4 +1,4 @@
-package practica1;
+package practica1.EntregableCasa;
 
 public class EntregableCasa {
 
