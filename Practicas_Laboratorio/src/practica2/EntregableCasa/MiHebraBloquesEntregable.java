@@ -12,7 +12,7 @@ public class MiHebraBloquesEntregable extends Thread{
     }
     @Override
     public void run() {
-        tam = ( (num / (nHebras - 1) ) / nHebras );
+        tam = (num + ( nHebras - 1 )) / nHebras ;
         ini = ( tam * miId );
         fin = min( (ini + tam), num);
 

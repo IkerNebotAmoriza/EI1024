@@ -1,9 +1,7 @@
-package Practicas_Laboratorio.src.practica2.EntregableCasa;
-
-import Practicas_Laboratorio.src.practica2.MiHebraFuncionCostosaBloques;
+package Practicas_Laboratorio.src.practica2;
 
 // ============================================================================
-public class EjemploFuncionCostosa1a {
+public class EjemploFuncionSencilla1a {
 // ============================================================================
 
     // --------------------------------------------------------------------------
@@ -101,11 +99,11 @@ public class EjemploFuncionCostosa1a {
         inicializaVectorY(vectorY);
 
         t1 = System.nanoTime();
-        MiHebraFuncionCostosaBloques [] vectorHebrasBloque = new MiHebraFuncionCostosaBloques[numHebras];
+        MiHebraFuncionSencillaBloques [] vectorHebrasBloque = new MiHebraFuncionSencillaBloques[numHebras];
 
         for (int i = 0; i < numHebras; i++) {
             //Creamos las hebras que evaluarán la función repartiendose la carga de forma cíclica
-            vectorHebrasBloque[i] = new MiHebraFuncionCostosaBloques(i, n, numHebras, vectorX, vectorY);
+            vectorHebrasBloque[i] = new MiHebraFuncionSencillaBloques(i, n, numHebras, vectorX, vectorY);
             //Ejecutamos las hebras
             vectorHebrasBloque[i].start();
         }
@@ -165,7 +163,7 @@ public class EjemploFuncionCostosa1a {
 
     // --------------------------------------------------------------------------
     public static double evaluaFuncion(double x) {
-        return Math.sin(Math.exp(-x) + Math.log(1 + x));
+        return 2.5 * x;
     }
 
     // --------------------------------------------------------------------------
