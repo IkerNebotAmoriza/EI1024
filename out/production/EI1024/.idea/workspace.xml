@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16de8ae7-37d5-4f56-a7b2-1101fb890335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ikern.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EjemploFuncionCostosa1a.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraFuncionCostosaCiclica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/MiHebraFuncionCostosaBloques.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/EI1024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EI1024.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -26,17 +23,6 @@
       <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/out/production/Practicas_Laboratorio/practica2/EntregableCasa/EntregableCasaEjercicio1_2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/out/production/Practicas_Laboratorio/practica2/EntregableCasa/MiHebraBloquesEntregable.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/out/production/Practicas_Laboratorio/practica2/EntregableCasa/MiHebraCiclicaEntregable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EjemploIncrementos1a.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EjemploIncrementos1a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EntregableCasa/EntregableCasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EntregableCasa/EntregableCasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EntregableCasa/MiHebraEntregable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EntregableCasa/MiHebraEntregable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/GUIPrimoSencillo1a.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/GUIPrimoSencillo1a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/MiHebraEjemploIncrementos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/MiHebraEjemploIncrementos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/MiHebraPrimoSencillo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/MiHebraPrimoSencillo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/ELIMINAR_CLASE_EN_LAB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraBloquesEntregable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraBloquesEntregable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraCiclicaEntregable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraCiclicaEntregable.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +34,7 @@
     <session id="-210516923">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
@@ -59,24 +45,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1145" />
+          <entry key="java" value="873" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1145" />
+          <entry key="JAVA" value="873" />
         </counts>
       </usages-collector>
     </session>
@@ -85,33 +69,34 @@
     <favorites_list name="EI1024" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EjemploFuncionCostosa1a.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-              <folding>
-                <element signature="e#5509#5510#0" expanded="true" />
-                <element signature="e#5572#5573#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/MiHebraFuncionCostosaBloques.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EjemploFuncionCostosa1a.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="663">
+                  <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraFuncionCostosaCiclica.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,20 +111,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraFuncionCostosaCiclica.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraFuncionCostosaBloques.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EntregableCasa/MiHebraEntregable.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EntregableCasa/EntregableCasa.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/MiHebraPrimoSencillo.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/MiHebraEjemploIncrementos.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EjemploIncrementos1a.java" />
         <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/GUIPrimoSencillo1a.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraCiclicaEntregable.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_1.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_2.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraBloquesEntregable.java" />
+        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraFuncionCostosaCiclica.java" />
         <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EjemploFuncionCostosa1a.java" />
-        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/MiHebraFuncionCostosaBloques.java" />
       </list>
     </option>
   </component>
@@ -154,26 +128,6 @@
     <option name="y" value="-12" />
     <option name="width" value="697" />
     <option name="height" value="735" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>WrongPackageStatement</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,6 +148,24 @@
             <path>
               <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
               <item name="EI1024" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EI1024" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EI1024" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="EI1024" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EI1024" type="462c0819:PsiDirectoryNode" />
               <item name="Practicas_Laboratorio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -201,29 +173,6 @@
               <item name="EI1024" type="462c0819:PsiDirectoryNode" />
               <item name="Practicas_Laboratorio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EI1024" type="462c0819:PsiDirectoryNode" />
-              <item name="Practicas_Laboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practica1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EI1024" type="462c0819:PsiDirectoryNode" />
-              <item name="Practicas_Laboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practica1" type="462c0819:PsiDirectoryNode" />
-              <item name="EntregableCasa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EI1024" type="462c0819:PsiDirectoryNode" />
-              <item name="Practicas_Laboratorio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practica1" type="462c0819:PsiDirectoryNode" />
-              <item name="EjemploIncrementos1a.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539177207294" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539174504052" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -260,9 +209,6 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Practicas_Laboratorio.src.practica2.EntregableCasa" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ikern\Desktop\Zonas de Trabajo\IntelliJ\EI1024\Practicas_Laboratorio\src\practica2\EntregableCasa" />
     </key>
@@ -283,10 +229,9 @@
     <configuration name="EjemploFuncionCostosa1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practicas_Laboratorio.src.practica2.EntregableCasa.EjemploFuncionCostosa1a" />
       <module name="EI1024" />
-      <option name="PROGRAM_PARAMETERS" value="5 100000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practicas_Laboratorio.src.practica2.*" />
+          <option name="PATTERN" value="Practicas_Laboratorio.src.practica2.EntregableCasa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,18 +260,17 @@
       <workItem from="1539168345260" duration="1244000" />
       <workItem from="1539169622179" duration="785000" />
       <workItem from="1539170456669" duration="2910000" />
-      <workItem from="1539173916212" duration="3265000" />
+      <workItem from="1539173916212" duration="403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9299000" />
+    <option name="totallyTimeSpent" value="6437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.2647504" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,7 +279,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.502455" side_tool="true" weight="0.2647504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,7 +289,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,104 +308,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraFuncionCostosaCiclica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EntregableCasa/MiHebraEntregable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EntregableCasa/EntregableCasa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/EjemploIncrementos1a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/GUIPrimoSencillo1a.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        <state relative-caret-position="102">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/MiHebraEjemploIncrementos.java">
+    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraFuncionCostosaCiclica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica1/MiHebraPrimoSencillo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraCiclicaEntregable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraBloquesEntregable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/MiHebraFuncionCostosaBloques.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica2/EntregableCasa/EjemploFuncionCostosa1a.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-          <folding>
-            <element signature="e#5509#5510#0" expanded="true" />
-            <element signature="e#5572#5573#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="663">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -533,7 +397,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

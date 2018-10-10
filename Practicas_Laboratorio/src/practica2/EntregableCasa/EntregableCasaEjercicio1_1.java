@@ -1,4 +1,4 @@
-package practica2.EntregableCasa;
+package Practicas_Laboratorio.src.practica2.EntregableCasa;
 
 public class EntregableCasaEjercicio1_1 {
     public static void main(String[]args) {

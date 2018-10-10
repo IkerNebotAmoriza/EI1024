@@ -1,4 +1,6 @@
-package practica1.EntregableCasa;
+package Practicas_Laboratorio.src.practica1.EntregableCasa;
+
+import Practicas_Laboratorio.src.practica1.EntregableCasa.MiHebraEntregable;
 
 public class EntregableCasa {
 

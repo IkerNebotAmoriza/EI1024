@@ -1,4 +1,4 @@
-package practica1;
+package Practicas_Laboratorio.src.practica1;
 
 public class MiHebraPrimoSencillo extends Thread{
 

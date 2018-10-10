@@ -1,4 +1,4 @@
-package practica1.EntregableCasa;
+package Practicas_Laboratorio.src.practica1.EntregableCasa;
 
 public class MiHebraEntregable extends Thread{
 
