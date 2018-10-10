@@ -2,11 +2,11 @@ package Practicas_Laboratorio.src.practica2.EntregableCasa;
 
 import static Practicas_Laboratorio.src.practica2.EntregableCasa.EjemploFuncionCostosa1a.evaluaFuncion;
 
-public class MiHebraFuncionSencillaCiclica extends Thread{
+public class MiHebraFuncionCostosaCiclica extends Thread{
     double [] vectorX, vectorY;
     int miId, n, nHebras;
 
-    public MiHebraFuncionSencillaCiclica(int miId, int n, int nHebras, double [] vectorX, double [] vectorY) {
+    public MiHebraFuncionCostosaCiclica(int miId, int n, int nHebras, double [] vectorX, double [] vectorY) {
         this.miId = miId;
         this.n = n;
         this.nHebras=nHebras;

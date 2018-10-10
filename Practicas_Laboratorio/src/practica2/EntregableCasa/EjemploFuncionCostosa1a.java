@@ -62,11 +62,11 @@ public class EjemploFuncionCostosa1a {
         inicializaVectorY(vectorY);
 
         t1 = System.nanoTime();
-        MiHebraFuncionSencillaCiclica[] vectorHebrasCiclicas = new MiHebraFuncionSencillaCiclica[numHebras];
+        MiHebraFuncionCostosaCiclica[] vectorHebrasCiclicas = new MiHebraFuncionCostosaCiclica[numHebras];
 
         for (int i = 0; i < numHebras; i++) {
             //Creamos las hebras que evaluarán la función repartiendose la carga de forma cíclica
-            vectorHebrasCiclicas[i] = new MiHebraFuncionSencillaCiclica(i, n, numHebras, vectorX, vectorY);
+            vectorHebrasCiclicas[i] = new MiHebraFuncionCostosaCiclica(i, n, numHebras, vectorX, vectorY);
             //Ejecutamos las hebras
             vectorHebrasCiclicas[i].start();
         }
