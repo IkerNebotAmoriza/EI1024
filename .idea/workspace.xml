@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16de8ae7-37d5-4f56-a7b2-1101fb890335" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/EI1024.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ikern.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/Practicas_Laboratorio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/EI1024.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/dictionaries/ikern.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/Practicas_Laboratorio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/CuentaIncrementos1a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/EjemploIncrementos1a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/EntregableCasa/EntregableCasa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/EntregableCasa/MiHebraEntregable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/GUIPrimoSencillo1a$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/GUIPrimoSencillo1a$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/GUIPrimoSencillo1a$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/GUIPrimoSencillo1a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/MiHebraEjemploIncrementos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica1/MiHebraPrimoSencillo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/EjemploFuncionSencilla1a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/EntregableCasa/EjemploFuncionCostosa1a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/EntregableCasa/EntregableCasaEjercicio1_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraBloquesEntregable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraCiclicaEntregable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/EntregableCasa/MiHebraFuncionSencillaCiclica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/MiHebraFuncionCostosaBloques.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/MiHebraFuncionSencillaBloques.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EI1024/Practicas_Laboratorio/src/practica2/MiHebraFuncionSencillaCiclica.class" beforeDir="false" />
-    </list>
+    <list default="true" id="16de8ae7-37d5-4f56-a7b2-1101fb890335" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +12,15 @@
     <session id="-210516923">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -190,8 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,6 +186,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,17 +303,17 @@
       <workItem from="1539191720544" duration="370000" />
       <workItem from="1539209301440" duration="158000" />
       <workItem from="1539209469906" duration="132000" />
+      <workItem from="1539209645667" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15725000" />
+    <option name="totallyTimeSpent" value="15728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.29133546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.2937202" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.2647504" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
