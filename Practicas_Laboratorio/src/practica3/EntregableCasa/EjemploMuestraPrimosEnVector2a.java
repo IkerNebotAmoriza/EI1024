@@ -1,5 +1,10 @@
 package Practicas_Laboratorio.src.practica3.EntregableCasa;
 
+import Practicas_Laboratorio.src.practica3.MiHebraPrimoDistDinamica;
+import Practicas_Laboratorio.src.practica3.MiHebraPrimoDistPorBloques;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
 // ===========================================================================
 public class EjemploMuestraPrimosEnVector2a {
 // ===========================================================================
@@ -8,28 +13,18 @@ public class EjemploMuestraPrimosEnVector2a {
   public static void main( String args[] ) {
     int     numHebras;
     long    t1, t2;
-    double  tt;
-    long    vectorNumeros[] = {
-                200000033L, 200000039L, 200000051L, 200000069L, 
-                200000081L, 200000083L, 200000089L, 200000093L, 
-                4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L
-            };
-    //// long    vectorNumeros[] = {
-                //// 200000033L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                //// 200000039L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                //// 200000051L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                //// 200000069L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                //// 200000081L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                //// 200000083L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                //// 200000089L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-                //// 200000093L, 4L, 4L, 4L, 4L, 4L, 4L, 4L
-            //// };
+    double  tt,tc,tb,td;
+
+     long    vectorNumeros[] = {
+                 200000033L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
+                 200000039L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
+                 200000051L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
+                 200000069L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
+                 200000081L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
+                 200000083L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
+                 200000089L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
+                 200000093L, 4L, 4L, 4L, 4L, 4L, 4L, 4L
+             };
 
 
     // Comprobacion y extraccion de los argumentos de entrada.
@@ -59,7 +54,7 @@ public class EjemploMuestraPrimosEnVector2a {
     }
     t2 = System.nanoTime();
     tt = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
-    System.out.println( "Tiempo secuencial (seg.):                    " + tt );
+    System.out.println( "Tiempo secuencial (seg.):                    "+tt );
 
     // -------------------------------------------------------------------------
 
@@ -83,13 +78,66 @@ public class EjemploMuestraPrimosEnVector2a {
         }
     }
     t2 = System.nanoTime();
-    tt = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
-    System.out.println( "Tiempo secuencial (seg.):                    " + tt );
+    tc = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
+    System.out.println("Tiempo ciclica (seg.):                        "+tc );
+      System.out.println("Incremento velocidad cíclica:               "+(tt/tc));
+
+    // -------------------------------------------------------------------------
+
+      // Implementacion bloques.
+      System.out.println("");
+      System.out.println("Implementacion paralela bloques");
+      t1=System.nanoTime();
+      MiHebraPrimoDistPorBloques[] vectorBloques= new MiHebraPrimoDistPorBloques[numHebras];
+      for(int i=0;i<numHebras;i++) {
+          vectorBloques[i]=new MiHebraPrimoDistPorBloques(i,numHebras,vectorNumeros);
+          vectorBloques[i].start();
+
+      }
+      for(int i=0;i<numHebras;i++) {
+          try {
+              vectorBloques[i].join();
+          }catch (InterruptedException ex) {
+              ex.printStackTrace();
+          }
+      }
+      t2=System.nanoTime();
+      tb = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
+      System.out.println("Tiempo paralela bloques (seg. ):            "+tb);
+      System.out.println("Incremento velocidad bloques:               "+(tt/tb));
+
+
+
+      // Implementacion dinamica.
+      System.out.println("");
+      System.out.println("Implementacion paralela dinamica");
+      t1=System.nanoTime();
+      MiHebraPrimoDistDinamica[] vectorDinamico= new MiHebraPrimoDistDinamica[numHebras];
+      AtomicInteger indice= new AtomicInteger(0);
+      for(int i=0;i<numHebras;i++) {
+          vectorDinamico[i]=new MiHebraPrimoDistDinamica(i,numHebras,vectorNumeros,indice);
+          vectorDinamico[i].start();
+
+      }
+      for(int i=0;i<numHebras;i++) {
+          try {
+              vectorDinamico[i].join();
+          }catch (InterruptedException ex) {
+              ex.printStackTrace();
+          }
+      }
+      t2=System.nanoTime();
+      td = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
+      System.out.println("Tiempo paralela dinamica (seg. ):           "+td);
+      System.out.println("Incremento velocidad dinamica:              "+ (tt/td));
+
 }
 
   // -------------------------------------------------------------------------
 
-  static boolean esPrimo( long num ) {
+
+
+  public static boolean esPrimo(long num) {
     boolean primo;
     if( num < 2 ) {
       primo = false;
