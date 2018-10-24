@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe924800-d261-44fa-8ad2-d09bcbd9ff94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/MiHebraPrimoDistPorBloques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/EjemploAtomicoNumeroPI1a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/EjemploNumeroPI1a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/GUISecuenciaPrimos1a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/Borrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/MiHebraPrimoDistDinamica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/EntregableCasa/EjemploMuestraPrimosEnVector2a.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/EntregableCasa/EjemploMuestraPrimosEnVector2a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EI1024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EI1024/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,74 +20,53 @@
     <session id="-210516923">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="5" />
+          <entry key="java" value="18" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="18" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="424" />
+          <entry key="java" value="3405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="424" />
+          <entry key="JAVA" value="3405" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/MiHebraPrimoDistPorBloques.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/EntregableCasa/EjemploMuestraPrimosEnVector2a.java">
+        <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/GUISecuenciaPrimos1a.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="106" column="72" lean-forward="true" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="72" />
+            <state relative-caret-position="-2449">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/MiHebraPrimoDistDinamica.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +91,11 @@
         <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/MiHebraPrimoDistPorBloques.java" />
         <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/MiHebraPrimoDistDinamica.java" />
         <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/EntregableCasa/EjemploMuestraPrimosEnVector2a.java" />
+        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/MiHebraMultAcumulaciones1b.java" />
+        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/Acumula.java" />
+        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/EjemploNumeroPI1a.java" />
+        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/EjemploAtomicoNumeroPI1a.java" />
+        <option value="$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/GUISecuenciaPrimos1a.java" />
       </list>
     </option>
   </component>
@@ -120,9 +105,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3" />
+    <option name="y" value="142" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -131,11 +116,11 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,19 +144,36 @@
               <item name="EI1024" type="462c0819:PsiDirectoryNode" />
               <item name="Practicas_Laboratorio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practica3" type="462c0819:PsiDirectoryNode" />
+              <item name="practica4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EI1024" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EI1024" type="462c0819:PsiDirectoryNode" />
+              <item name="Practicas_Laboratorio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practica4" type="462c0819:PsiDirectoryNode" />
+              <item name="EntregableCasa" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539788793089" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540387799554" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Practicas_Laboratorio.src.practica4.EntregableCasa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ikern\Desktop\Zonas de Trabajo\IntelliJ\EI1024\Practicas_Laboratorio\src\practica4\EntregableCasa" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +187,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EjemploMuestraPrimosEnVector2a">
+  <component name="RunManager" selected="Application.GUISecuenciaPrimos1a">
+    <configuration name="EjemploAtomicoNumeroPI1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicas_Laboratorio.src.practica4.EntregableCasa.EjemploAtomicoNumeroPI1a" />
+      <module name="EI1024" />
+      <option name="PROGRAM_PARAMETERS" value="4 20000000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicas_Laboratorio.src.practica4.EntregableCasa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemploFuncionSencilla1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practicas_Laboratorio.src.practica2.EjemploFuncionSencilla1a" />
       <module name="EI1024" />
@@ -213,12 +229,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploNumeroPI1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicas_Laboratorio.src.practica4.EntregableCasa.EjemploNumeroPI1a" />
+      <module name="EI1024" />
+      <option name="PROGRAM_PARAMETERS" value="4 2000000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicas_Laboratorio.src.practica4.EntregableCasa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUISecuenciaPrimos1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicas_Laboratorio.src.practica4.EntregableCasa.GUISecuenciaPrimos1a" />
+      <module name="EI1024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicas_Laboratorio.src.practica4.EntregableCasa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.EjemploFuncionSencilla1a" />
       <item itemvalue="Application.EjemploMuestraPrimosEnVector2a" />
+      <item itemvalue="Application.EjemploNumeroPI1a" />
+      <item itemvalue="Application.EjemploAtomicoNumeroPI1a" />
+      <item itemvalue="Application.GUISecuenciaPrimos1a" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GUISecuenciaPrimos1a" />
+        <item itemvalue="Application.EjemploAtomicoNumeroPI1a" />
+        <item itemvalue="Application.EjemploNumeroPI1a" />
         <item itemvalue="Application.EjemploMuestraPrimosEnVector2a" />
         <item itemvalue="Application.EjemploFuncionSencilla1a" />
       </list>
@@ -240,17 +289,23 @@
       <workItem from="1539245526864" duration="123000" />
       <workItem from="1539771090157" duration="4000" />
       <workItem from="1539786420576" duration="2350000" />
+      <workItem from="1540286793503" duration="1369000" />
+      <workItem from="1540289012644" duration="6453000" />
+      <workItem from="1540304781266" duration="2009000" />
+      <workItem from="1540385913608" duration="1879000" />
+      <workItem from="1540390265970" duration="5767000" />
+      <workItem from="1540408704276" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3069000" />
+    <option name="totallyTimeSpent" value="20599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,7 +314,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5335516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5335516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,30 +370,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/MiHebraPrimoDistPorBloques.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/MiHebraPrimoDistDinamica.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/EntregableCasa/EjemploMuestraPrimosEnVector2a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/s.java" />
+    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/MiHebraMultAcumulaciones1b.java" />
+    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/Acumula.java" />
+    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/EjemploNumeroPI1a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="136" column="88" selection-start-line="136" selection-start-column="88" selection-end-line="136" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/EjemploAtomicoNumeroPI1a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica3/EntregableCasa/EjemploMuestraPrimosEnVector2a.java">
+    <entry file="file://$PROJECT_DIR$/Practicas_Laboratorio/src/practica4/EntregableCasa/GUISecuenciaPrimos1a.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="106" column="72" lean-forward="true" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="72" />
+        <state relative-caret-position="-2449">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
           </folding>
         </state>
       </provider>

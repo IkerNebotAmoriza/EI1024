@@ -26,7 +26,6 @@ public class EjemploMuestraPrimosEnVector2a {
                  200000093L, 4L, 4L, 4L, 4L, 4L, 4L, 4L
              };
 
-
     // Comprobacion y extraccion de los argumentos de entrada.
     if( args.length != 1 ) {
       System.err.println( "Uso: java programa <numHebras>" );
@@ -79,8 +78,8 @@ public class EjemploMuestraPrimosEnVector2a {
     }
     t2 = System.nanoTime();
     tc = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
-    System.out.println("Tiempo ciclica (seg.):                        "+tc );
-      System.out.println("Incremento velocidad cíclica:               "+(tt/tc));
+    System.out.println("Tiempo ciclica (seg.):                       "+tc );
+      System.out.println("Incremento velocidad cíclica:                "+(tt/tc));
 
     // -------------------------------------------------------------------------
 
@@ -103,8 +102,8 @@ public class EjemploMuestraPrimosEnVector2a {
       }
       t2=System.nanoTime();
       tb = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
-      System.out.println("Tiempo paralela bloques (seg. ):            "+tb);
-      System.out.println("Incremento velocidad bloques:               "+(tt/tb));
+      System.out.println("Tiempo paralela bloques (seg. ):             "+tb);
+      System.out.println("Incremento velocidad bloques:                "+(tt/tb));
 
 
 
@@ -128,8 +127,8 @@ public class EjemploMuestraPrimosEnVector2a {
       }
       t2=System.nanoTime();
       td = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
-      System.out.println("Tiempo paralela dinamica (seg. ):           "+td);
-      System.out.println("Incremento velocidad dinamica:              "+ (tt/td));
+      System.out.println("Tiempo paralela dinamica (seg. ):            "+td);
+      System.out.println("Incremento velocidad dinamica:               "+ (tt/td));
 
 }
 
