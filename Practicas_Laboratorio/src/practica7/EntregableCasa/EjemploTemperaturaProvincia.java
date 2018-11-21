@@ -1,18 +1,20 @@
-package Practicas_Laboratorio.src.practica7;
+package Practicas_Laboratorio.src.practica7.EntregableCasa;
+
+import Practicas_Laboratorio.src.practica7.TareaPool;
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
 import java.util.concurrent.*;
-import java.util.concurrent.atomic.AtomicInteger;
 
-class EjemploTemperaturaProvincia {
+public class EjemploTemperaturaProvincia {
     public static void main(String[] args) {
         int numHebras, codProvincia, desp;
         long t1, t2, tt[];
-        double ts, tp;
+        double ts, tp, tpool1,tpool2, tcall;
         PuebloMaximaMinima MaxMin;
         LinkedBlockingQueue<Tarea> cola;
+        ExecutorService pool;
 
         // Comprobacion y extraccion de los argumentos de entrada.
         if (args.length != 3) {
@@ -67,11 +69,11 @@ class EjemploTemperaturaProvincia {
         //
         // Implementacion secuencial sin temporizar.
         //
-        MaxMin = new PuebloMaximaMinima();
-        obtenMayorDiferencia_SecuencialAFichero(fecha, codProvincia, MaxMin);
-        System.out.println("  Pueblo: " + MaxMin.damePueblo() + " , Maxima = " +
-                MaxMin.dameTemperaturaMaxima() + " , Minima = " +
-                MaxMin.dameTemperaturaMinima());
+        //MaxMin = new PuebloMaximaMinima();
+        //obtenMayorDiferencia_SecuencialAFichero(fecha, codProvincia, MaxMin);
+        //System.out.println("  Pueblo: " + MaxMin.damePueblo() + " , Maxima = " +
+        //      MaxMin.dameTemperaturaMaxima() + " , Minima = " +
+        //      MaxMin.dameTemperaturaMinima());
 
         //
         // Implementacion secuencial.
@@ -82,7 +84,7 @@ class EjemploTemperaturaProvincia {
         obtenMayorDiferencia_SecuencialDeFichero(fecha, codProvincia, MaxMin);
         t2 = System.nanoTime();
         ts = ((double) (t2 - t1)) / 1.0e9;
-        System.out.print("Implementacion secuencial.                           ");
+        System.out.print("Implementacion secuencial.                          ");
         System.out.println(" Tiempo(s): " + ts);
         System.out.println("  Pueblo: " + MaxMin.damePueblo() + " , Maxima = " +
                 MaxMin.dameTemperaturaMaxima() + " , Minima = " +
@@ -100,6 +102,58 @@ class EjemploTemperaturaProvincia {
         tp = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
         System.out.print( "Implementacion paralela.                           " );
         System.out.println( " Tiempo(s): " + tp );
+        System.out.println(" SpeedUp:                                            "+ ts/tp);
+        System.out.println( "  Pueblo: " + MaxMin.damePueblo() + " , Maxima = " +
+                MaxMin.dameTemperaturaMaxima() + " , Minima = " +
+                MaxMin.dameTemperaturaMinima() );
+
+        //
+        // Implementacion Thread Pools con espera activa.
+        //
+        System.out.println();
+        t1 = System.nanoTime();
+        MaxMin = new PuebloMaximaMinima();
+        pool = Executors.newFixedThreadPool(numHebras);
+        obtenMayorDiferencia_SecuencialDeFicheroPools1(numHebras, fecha, codProvincia, MaxMin, pool);
+        t2 = System.nanoTime();
+        tpool1 = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
+        System.out.print( "Implementacion Thread Pools con espera activa                       " );
+        System.out.println( " Tiempo(s): " + tpool1 );
+        System.out.println(" SpeedUp:                                                           "+ ts/tpool1);
+        System.out.println( "  Pueblo: " + MaxMin.damePueblo() + " , Maxima = " +
+                MaxMin.dameTemperaturaMaxima() + " , Minima = " +
+                MaxMin.dameTemperaturaMinima() );
+
+        //
+        // Implementacion Thread Pools sin espera activa.
+        //
+        System.out.println();
+        t1 = System.nanoTime();
+        MaxMin = new PuebloMaximaMinima();
+        pool = Executors.newFixedThreadPool(numHebras);
+        obtenMayorDiferencia_SecuencialDeFicheroPools2(numHebras, fecha, codProvincia, MaxMin, pool);
+        t2 = System.nanoTime();
+        tpool2 = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
+        System.out.print( "Implementacion Thread Pools sin espera activa                       " );
+        System.out.println( " Tiempo(s): " + tpool2 );
+        System.out.println(" SpeedUp:                                                           "+ ts/tpool2);
+        System.out.println( "  Pueblo: " + MaxMin.damePueblo() + " , Maxima = " +
+                MaxMin.dameTemperaturaMaxima() + " , Minima = " +
+                MaxMin.dameTemperaturaMinima() );
+
+        //
+        // Implementacion Callable.
+        //
+        System.out.println();
+        t1 = System.nanoTime();
+        MaxMin = new PuebloMaximaMinima();
+        pool = Executors.newFixedThreadPool(numHebras);
+        System.out.println("FALTA IMPLEMENTAR EJERCICIO 4"); // FALTA IMPLEMENTAR EJERCICIO 4
+        t2 = System.nanoTime();
+        tcall = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
+        System.out.print( "Implementacion Callable                                              " );
+        System.out.println( " Tiempo(s): " + tcall );
+        System.out.println(" SpeedUp:                                                           "+ ts/tcall);
         System.out.println( "  Pueblo: " + MaxMin.damePueblo() + " , Maxima = " +
                 MaxMin.dameTemperaturaMaxima() + " , Minima = " +
                 MaxMin.dameTemperaturaMinima() );
@@ -229,6 +283,92 @@ class EjemploTemperaturaProvincia {
     }
 
     // --------------------------------------------------------------------------
+
+    public static void obtenMayorDiferencia_SecuencialDeFicheroPools1(int numHebras, String fecha, int codProvincia,
+                                                                     PuebloMaximaMinima MaxMin,
+                                                                     ExecutorService pool) {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        // Procesa el fichero "codPueblos.txt"
+        try {
+            // Apertura del fichero y creacion de BufferedReader para poder
+            // hacer una lectura comoda (disponer del metodo readLine()).
+            archivo = new File("codPueblos.txt");
+            fr = new FileReader(archivo);
+            br = new BufferedReader(fr);
+
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                int codPueblo = Integer.parseInt(linea);
+                pool.execute(new TareaPool(codPueblo, fecha, MaxMin, pool));
+            }
+
+            pool.shutdown();
+            while (!pool.isTerminated()){};
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // Se aprovecha el finally para asegurar el cierre del fichero,
+            // tanto si todo va bien como si salta una excepcion.
+            try {
+                if (null != fr) {
+                    fr.close();
+                }
+            } catch (Exception e2) {
+                e2.printStackTrace();
+            }
+        }
+    }
+
+    // --------------------------------------------------------------------------
+
+    public static void obtenMayorDiferencia_SecuencialDeFicheroPools2(int numHebras, String fecha, int codProvincia,
+                                                                        PuebloMaximaMinima MaxMin,
+                                                                        ExecutorService pool) {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        // Procesa el fichero "codPueblos.txt"
+        try {
+            // Apertura del fichero y creacion de BufferedReader para poder
+            // hacer una lectura comoda (disponer del metodo readLine()).
+            archivo = new File("codPueblos.txt");
+            fr = new FileReader(archivo);
+            br = new BufferedReader(fr);
+
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                int codPueblo = Integer.parseInt(linea);
+                pool.execute(new TareaPool(codPueblo, fecha, MaxMin, pool));
+            }
+
+            pool.shutdown();
+            try {
+                while (!pool.awaitTermination(2L, TimeUnit.MILLISECONDS));
+            }catch (InterruptedException ex){
+                ex.printStackTrace();
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // Se aprovecha el finally para asegurar el cierre del fichero,
+            // tanto si todo va bien como si salta una excepcion.
+            try {
+                if (null != fr) {
+                    fr.close();
+                }
+            } catch (Exception e2) {
+                e2.printStackTrace();
+            }
+        }
+    }
+
+    // --------------------------------------------------------------------------
     public static boolean ProcesaPueblo(String fecha, int codPueblo, PuebloMaximaMinima MaxMin,
                                         boolean imprime) {
         URL url;
@@ -282,56 +422,6 @@ class EjemploTemperaturaProvincia {
             }
         }
         return res;
-    }
-}
-
-// ============================================================================
-class PuebloMaximaMinima {
-    // ============================================================================
-    String poblacion;
-    int codigo, max, min;
-
-
-    // --------------------------------------------------------------------------
-    public PuebloMaximaMinima() {
-        poblacion = null;
-        codigo = -1;
-        max = -1;
-        min = -1;
-    }
-
-    // --------------------------------------------------------------------------
-    public synchronized void actualizaMaxMin(String poblacion, int codigo, int max, int min) {
-        if ((this.poblacion == null) || ((this.max - this.min) < (max - min)) ||
-                (((this.max - this.min) == (max - min)) && (this.min > min)) ||
-                (((this.max - this.min) == (max - min)) && (this.min == min) && (this.codigo > codigo))
-        ) {
-            //      (((this.max-this.min) == (max-min)) && (this.max < max))) {
-            this.poblacion = poblacion;
-            this.codigo = codigo;
-            this.max = max;
-            this.min = min;
-        }
-    }
-
-    // --------------------------------------------------------------------------
-    public String damePueblo() {
-        return this.poblacion + "(" + this.codigo + ")";
-    }
-
-    // --------------------------------------------------------------------------
-    public int dameCodigo() {
-        return this.codigo;
-    }
-
-    // --------------------------------------------------------------------------
-    public int dameTemperaturaMaxima() {
-        return this.max;
-    }
-
-    // --------------------------------------------------------------------------
-    public int dameTemperaturaMinima() {
-        return this.min;
     }
 }
 

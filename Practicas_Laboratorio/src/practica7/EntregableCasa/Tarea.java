@@ -1,4 +1,4 @@
-package Practicas_Laboratorio.src.practica7;
+package Practicas_Laboratorio.src.practica7.EntregableCasa;
 
 public class Tarea {
     private boolean esVeneno;

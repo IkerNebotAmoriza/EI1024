@@ -1,8 +1,8 @@
-package Practicas_Laboratorio.src.practica7;
+package Practicas_Laboratorio.src.practica7.EntregableCasa;
 
 import java.util.concurrent.LinkedBlockingQueue;
 
-import static Practicas_Laboratorio.src.practica7.EjemploTemperaturaProvincia.ProcesaPueblo;
+import static Practicas_Laboratorio.src.practica7.EntregableCasa.EjemploTemperaturaProvincia.ProcesaPueblo;
 
 public class MiHebraConsumidora extends  Thread{
     String fecha;
